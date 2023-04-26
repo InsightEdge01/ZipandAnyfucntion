@@ -1,0 +1,16 @@
+#Using the zip() function to iterate over multiple sequences in parallel
+names = ["Alice","Eric","Bob"]
+ages = [25,30,35]
+
+for names,ages in zip(names,ages):
+    print(f'{names} is {ages} years old')
+    
+    
+ #Using the any() and all() functions to check boolean values in a list:
+values = [True,False,True,False]
+
+if any(values):
+    print("At least one value is True")
+if not all(values):
+    print('Not all values are True')
+    
